@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.name{
+	float: left;
+	margin-left: 10px;
+	line-height: 120px;
+}
+
+
+#logo{
+	float: left;
+	border-radius: 50%;
+	margin: 10px;
+	margin-left: 20px;
+
+}
+
+.container-1{
+	background: #ffffff;
+	max-width: 1200px;
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+
+
+.container-1:after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+
+.nav{
+	margin-right: 40px;
+}
+.nav ul li{
+	display: inline;
+
+}
+
+.nav ul li a{
+	float: right;
+	line-height:100px;
+	color: #000000;
+	padding: 10px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.nav ul li a:hover{
+	color: #636363;
+}
+
+.container-2{
+	background: #ffffff;
+	/*background: #fefdf7;*/
+	max-width: 1200px;
+	margin: 0 auto;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+
+.container-2{
+	background: linear-gradient(to bottom, rgba(255,255,255,1),rgba(255,253,250,1), rgba(255,237,203,1))
+}
+
+
+.container-2::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+
+#bgimage{
+	float: right;
+	display: block;
+	max-width: 70%;
+	width: 70%;
+	margin-top: -40px;
+	padding: 20px; 
+}
+
+.rectangle {
+	float: left;
+	height: 500px;
+	width: 3px;
+	margin-left: 65px;
+	margin-top: 50px;
+	background-color: #e0e0e0;
+	border-radius: 5px;
+}
+
+.circle {
+	float: left;
+	margin-top: 560px;
+	margin-left: -6.5px;
+	height: 10px;
+	width: 10px;
+	background-color: #606060;
+	border-radius: 50%;
+}
+
+.circle-2{
+	float: left;
+	margin-top: 580px;
+	margin-left: -9.7px;
+	height: 10px;
+	width: 10px;
+	background-color: #d0d0d0;
+	border-radius: 50%;
+}
+
+.circle-3{
+	float: left;
+	margin-top: 600px;
+	margin-left: -9.8px;
+	height: 10px;
+	width: 10px;
+	background-color: #d0d0d0;
+	border-radius: 50%;
+}
+
+.circle-4{
+	float: left;
+	margin-top: 620px;
+	margin-left: -10px;
+	height: 10px;
+	width: 10px;
+	background-color: #d0d0d0;
+	border-radius: 50%;
+}
+
+.circle-5{
+	float: left;
+	margin-top: 640px;
+	margin-left: -10px;
+	height: 10px;
+	width: 10px;
+	margin-bottom: 20px;
+	background-color: #d0d0d0;
+	border-radius: 50%;
+}
+
+
+h1{
+	float: left;
+	color: #5f9e5d;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+
+.bullets ul {
+	float: left;
+	max-width: 15%;
+	width: 15%;
+	margin-left: -131px;
+	margin-top: 130px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 5px;;
+	color: #b8b8b8;
+	font-size: 18px;
+}
+
+h4{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	padding: 10px;
+	color: #b8b8b8;
+}
